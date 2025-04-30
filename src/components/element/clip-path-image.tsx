@@ -15,11 +15,11 @@ function ClipPathImage() {
           </clipPath>
         </defs>
       </svg>
-      
+
       {/* Image with clip path applied */}
       <figure style={{ clipPath: 'url(#differentone16)' }} className="">
         <Image
-          src="./image/mantha-profile-pic.png" width={500} height={500}
+          src="/image/mantha-profile-pic.png" width={500} height={500}
           alt="Mantha profile picture"
           className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
         />

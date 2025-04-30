@@ -1,15 +1,14 @@
 import type { NextConfig } from "next";
+const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  reactStrictMode: true,
+  assetPrefix: isProd ? '/your-repository-name/' : '',
+  basePath: isProd ? '/your-repository-name' : '',
+  output: 'export',
   images: {
+    unoptimized: true, // Disable default image optimization
     remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "originui.com",
-        port: "",
-        pathname: "/avatar.jpg",
-      },
       {
         protocol: "https",
         hostname: "images.unsplash.com",
