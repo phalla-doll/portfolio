@@ -8,7 +8,7 @@ const nextConfig: NextConfig = {
   output: 'export',
   images: {
     unoptimized: true,
-    path: "/",
+    path: "/portfolio",
     remotePatterns: [
       {
         protocol: "https",
