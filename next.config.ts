@@ -3,11 +3,11 @@ const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
-  assetPrefix: isProd ? '/your-repository-name/' : '',
-  basePath: isProd ? '/your-repository-name' : '',
+  assetPrefix: isProd ? '/portfolio/' : '',
+  basePath: isProd ? '/portfolio' : '',
   output: 'export',
   images: {
-    unoptimized: true, // Disable default image optimization
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",

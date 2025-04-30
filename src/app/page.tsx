@@ -15,7 +15,7 @@ export default function Home() {
   ];
   return (
     <>
-      <div className="container mx-auto flex flex-col items-center justify-center mt-12 sm:mt-0 min-h-screen px-4">
+      <div className="container mx-auto flex flex-col items-center justify-center min-h-screen px-4">
         <main className="grid grid-cols-1 md:grid-cols-2 items-center sm:items-start gap-8">
           <div className="my-auto">
             <h1 className="text-xl md:text-2xl font-normal text-center sm:text-left">
