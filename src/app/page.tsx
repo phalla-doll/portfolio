@@ -36,7 +36,7 @@ export default function Home() {
                 <div className="me-0.5 flex aspect-square h-full p-1.5">
                   <Image
                     className="h-auto w-full rounded-full"
-                    src="/image/mantha-profile-pic-sm.png"
+                    src="./image/mantha-profile-pic-sm.png"
                     alt="Mantha Profile Image"
                     width={24}
                     height={24}
