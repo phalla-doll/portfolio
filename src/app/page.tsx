@@ -15,14 +15,14 @@ export default function Home() {
   ];
   return (
     <>
-      <div className="container mx-auto flex flex-col items-center justify-center min-h-screen px-4">
+      <div className="container mx-auto flex flex-col items-center justify-center mt-12 sm:mt-0 min-h-screen px-4">
         <main className="grid grid-cols-1 md:grid-cols-2 items-center sm:items-start gap-8">
-          <div className="relative my-auto">
-            <h1 className="text-2xl font-normal text-center sm:text-left">
+          <div className="my-auto">
+            <h1 className="text-xl md:text-2xl font-normal text-center sm:text-left">
               👋 Hello, I’m Mantha
             </h1>
-            <div className="mt-3 mb-8 max-w-screen">
-              <h1 className="text-4xl font-light text-left text-muted-foreground">
+            <div className="mt-3 mb-8 max-w-[90vw] relative">
+              <h1 className="text-2xl sm:text-4xl font-light text-center sm:text-left text-muted-foreground">
                 A software engineer and designer based in Cambodia. I love to
                 create things that <AnimatedTextCycle
                   words={words}
@@ -31,7 +31,7 @@ export default function Home() {
                 />
               </h1>
             </div>
-            <div>
+            <div className="flex flex-col sm:flex-row gap-4">
               <Button className="rounded-full py-0 ps-0 gap-0 hover:cursor-pointer">
                 <div className="me-0.5 flex aspect-square h-full p-1.5">
                   <Image
@@ -47,8 +47,10 @@ export default function Home() {
               </Button>
             </div>
           </div>
-          <div className="w-60 md:w-90 relative">
-            <ClipPathImage />
+          <div className="w-full flex justify-center relative">
+            <div className="w-60 sm:w-96">
+              <ClipPathImage />
+            </div>
           </div>
         </main>
         <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center my-10">
