@@ -6,12 +6,12 @@ import Image from "next/image";
 export default function Home() {
 
   const words = [
-    "live on the internet.",
-    "solve user problems.",
-    "are fast and responsive.",
-    "look great on any device.",
-    "are accessible to everyone.",
-    "push the boundaries of the web.",
+    "make your business grow.",
+    "engage your users.",
+    "achieve your goals.",
+    "boost your online presence.",
+    "drive results.",
+    "bring your vision to life.",
   ];
   return (
     <>
@@ -32,11 +32,11 @@ export default function Home() {
               </h1>
             </div>
             <div>
-              <Button className="rounded-full py-0 ps-0">
+              <Button className="rounded-full py-0 ps-0 gap-0 hover:cursor-pointer">
                 <div className="me-0.5 flex aspect-square h-full p-1.5">
                   <Image
                     className="h-auto w-full rounded-full"
-                    src="https://originui.com/avatar.jpg"
+                    src="/image/mantha-profile-pic-sm.png"
                     alt="Mantha Profile Image"
                     width={24}
                     height={24}
