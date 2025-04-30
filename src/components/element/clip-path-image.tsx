@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 function ClipPathImage() {
@@ -17,7 +18,7 @@ function ClipPathImage() {
       
       {/* Image with clip path applied */}
       <figure style={{ clipPath: 'url(#differentone16)' }} className="">
-        <img
+        <Image
           src="image/mantha-profile-pic.png"
           alt="Mantha profile picture"
           className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
