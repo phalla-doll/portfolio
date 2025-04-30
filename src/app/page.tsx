@@ -27,7 +27,7 @@ export default function Home() {
                 create things that <AnimatedTextCycle
                   words={words}
                   interval={3000}
-                  className={"text-foreground font-semibold"}
+                  className={"text-foreground font-semibold block sm:inline-block"}
                 />
               </h1>
             </div>
