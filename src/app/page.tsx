@@ -2,7 +2,6 @@ import Footer from "@/components/element/footer";
 import AnimatedTextCycle from "@/components/ui/animated-text-cycle";
 import { Button } from "@/components/ui/button";
 import TiltedCard from "@/components/ui/tilted-card";
-import { Tally2, Terminal } from "lucide-react";
 import Image from "next/image";
 
 export default function Home() {
@@ -20,7 +19,7 @@ export default function Home() {
         <main className="grid grid-cols-1 md:grid-cols-2 items-center sm:items-start gap-8">
           <div className="my-auto">
             <h1 className="text-xl md:text-2xl font-normal text-center sm:text-left">
-              👋 Hello, I’m Mantha
+              👋 Hello, I&apos;m Mantha
             </h1>
             <div className="mt-3 mb-8 max-w-[90vw] relative">
               <h1 className="text-2xl sm:text-4xl font-light text-center sm:text-left text-muted-foreground">
