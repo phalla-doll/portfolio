@@ -1,9 +1,9 @@
-import ClipPathImage from "@/components/element/clip-path-image";
+import Footer from "@/components/element/footer";
 import AnimatedTextCycle from "@/components/ui/animated-text-cycle";
 import { Button } from "@/components/ui/button";
-import { GalleryVerticalEnd, House, Info } from "lucide-react";
+import TiltedCard from "@/components/ui/tilted-card";
+import { Tally2, Terminal } from "lucide-react";
 import Image from "next/image";
-import Link from "next/link";
 
 export default function Home() {
 
@@ -56,37 +56,30 @@ export default function Home() {
             </div>
           </div>
           <div className="w-full flex justify-center relative">
-            <div className="w-60 sm:w-96">
-              <ClipPathImage />
+            <div className="relative w-[320px] h-[320px]">
+              <TiltedCard
+                imageSrc="/mantha-profile-pic.png"
+                altText="Mantha Profile Image"
+                captionText="Mantha"
+                containerHeight="320px"
+                containerWidth="320px"
+                imageHeight="320px"
+                imageWidth="320px"
+                rotateAmplitude={12}
+                scaleOnHover={1.2}
+                showMobileWarning={false}
+                showTooltip={true}
+                displayOverlayContent={true}
+                overlayContent={
+                  <p className="tilted-card-demo-text">
+                    Web Developer/Designer
+                  </p>
+                }
+              />
             </div>
           </div>
         </main>
-        <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center my-10">
-          <Link
-            className="flex items-center gap-2 group"
-            href="/"
-          >
-            <House className="w-6 h-6" strokeWidth={1} />
-            <span className="group-hover:underline underline-offset-4">Home</span>
-            <span className="inline-block transition-all duration-300 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0">→</span>
-          </Link>
-          <Link
-            className="flex items-center gap-2 group"
-            href="/projects"
-          >
-            <GalleryVerticalEnd className="w-6 h-6" strokeWidth={1} />
-            <span className="group-hover:underline underline-offset-4">Projects</span>
-            <span className="inline-block transition-all duration-300 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0">→</span>
-          </Link>
-          <Link
-            className="flex items-center gap-2 group"
-            href="/about"
-          >
-            <Info className="w-6 h-6" strokeWidth={1} />
-            <span className="group-hover:underline underline-offset-4">About</span>
-            <span className="inline-block transition-all duration-300 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0">→</span>
-          </Link>
-        </footer>
+        <Footer />
       </div>
     </>
   );
