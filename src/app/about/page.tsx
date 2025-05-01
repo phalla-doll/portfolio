@@ -92,7 +92,7 @@ export default function About() {
       <div className="mb-10">
       <h1 className="text-3xl font-light mb-5 text-center sm:text-left">Contact</h1>
         <p className="text-lg text-muted-foreground text-center sm:text-left">
-          Feel free to reach out to me via email at <a href="mailto:mantha.houn@gmail.com">mantha.dev@gmail.com</a>.
+          Feel free to reach out to me via email at <a href="mailto:phalla.doll@gmail.com">mantha.dev@gmail.com</a>.
         </p>
       </div>
     </div>
