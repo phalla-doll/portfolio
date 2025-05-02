@@ -53,11 +53,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased relative`}
-      >
-        <ThemeToggle />
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
+        <div className="fixed top-4 right-4">
+          <ThemeToggle />
+        </div>
       </body>
     </html>
   );

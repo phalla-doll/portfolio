@@ -30,17 +30,16 @@ export function ThemeToggle() {
     };
 
     return (
-        <div className="absolute top-4 right-4 z-10">
-            <Button
-                variant="ghost"
-                className="hover:cursor-pointer"
-                size="icon"
-                onClick={toggleTheme}
-                aria-label="Toggle theme"
-            >
-                {isDarkMode ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
-            </Button>
-        </div>
+
+        <Button
+            variant="ghost"
+            className="hover:cursor-pointer"
+            size="icon"
+            onClick={toggleTheme}
+            aria-label="Toggle theme"
+        >
+            {isDarkMode ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
+        </Button>
 
     );
 }
