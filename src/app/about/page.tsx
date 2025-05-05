@@ -60,6 +60,12 @@ export default function About() {
         image: "https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg",
         className: "h-7 w-auto",
       },
+      {
+        id: "logo-10",
+        description: "JavaScript",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png",
+        className: "h-7 w-auto",
+      },
     ],
   };
 
