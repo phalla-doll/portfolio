@@ -31,9 +31,9 @@ export default function Home() {
                 />
               </h1>
             </div>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <a href="https://t.me/phalla404" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
-                <Button className="rounded-full py-0 ps-0 pe-4 gap-0 hover:cursor-pointer group relative w-full">
+            <div className="flex flex-col items-center sm:items-start sm:flex-row gap-4">
+              <a href="https://t.me/phalla404" target="_blank" rel="noopener noreferrer">
+                <Button className="rounded-full py-0 ps-0 pe-4 gap-0 hover:cursor-pointer relative">
                   <div className="me-2 flex aspect-square h-full p-1.5">
                     <Image
                       className="h-auto w-full rounded-full"
@@ -45,10 +45,7 @@ export default function Home() {
                     />
                   </div>
                   <div className="h-full flex items-center py-2">
-                    <span className="transition-opacity duration-300 group-hover:opacity-0 group-hover:hidden block whitespace-nowrap">
-                      @mantha
-                    </span>
-                    <span className="transition-opacity duration-300 opacity-0 hidden group-hover:opacity-100 group-hover:block whitespace-nowrap">
+                    <span className="whitespace-nowrap">
                       Contact @mantha
                     </span>
                   </div>
