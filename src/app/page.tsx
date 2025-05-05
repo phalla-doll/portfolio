@@ -2,6 +2,7 @@ import Footer from "@/components/element/footer";
 import AnimatedTextCycle from "@/components/ui/animated-text-cycle";
 import { Button } from "@/components/ui/button";
 import TiltedCard from "@/components/ui/tilted-card";
+import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 
 export default function Home() {
@@ -45,8 +46,8 @@ export default function Home() {
                     />
                   </div>
                   <div className="h-full flex items-center py-2">
-                    <span className="whitespace-nowrap">
-                      Contact @mantha
+                    <span className="whitespace-nowrap flex items-center gap-1">
+                      Contact @mantha <ArrowUpRight strokeWidth={1.5} className="h-5 w-5" />
                     </span>
                   </div>
                 </Button>
