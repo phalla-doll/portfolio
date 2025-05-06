@@ -32,8 +32,8 @@ export default function Home() {
     <>
       <div className="container mx-auto flex flex-col items-center justify-center mt-10 sm:mt-0 min-h-screen px-4">
         <main className="grid grid-cols-1 md:grid-cols-2 items-center sm:items-start gap-8">
-          <div className="my-auto relative">
-            <h1 className="text-xl md:text-2xl truncate w-auto font-medium text-center sm:text-left">
+          <div className="my-auto relative max-w-[90vw]">
+            <h1 className="text-xl md:text-2xl truncate font-medium text-center sm:text-left">
               👋 <AnimatedTextCycle
                 words={greetingInDifferentLanguages}
                 interval={3000}
