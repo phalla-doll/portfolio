@@ -14,20 +14,38 @@ export default function Home() {
     "boost online presence.",
     "bring visions to life.",
   ];
+  const greetingInDifferentLanguages = [
+    "សួស្តី ខ្ញុំឈ្មោះ",
+    "Hello, I'm",
+    "你好，我是",
+    "こんにちは、私は",
+    "สวัสดีครับ ผมชื่อ",
+    "안녕하세요, 저는",
+    "Привет, я",
+    "Hola, soy",
+    "Bonjour, je suis",
+    "Ciao, sono",
+    "Merhaba, ben",
+    "Salut, je suis",
+  ];
   return (
     <>
       <div className="container mx-auto flex flex-col items-center justify-center mt-10 sm:mt-0 min-h-screen px-4">
         <main className="grid grid-cols-1 md:grid-cols-2 items-center sm:items-start gap-8">
-          <div className="my-auto">
-            <h1 className="text-xl md:text-2xl font-normal text-center sm:text-left">
-              👋 Hello, I&apos;m Mantha
+          <div className="my-auto relative">
+            <h1 className="text-xl md:text-2xl truncate w-auto font-medium text-center sm:text-left">
+              👋 <AnimatedTextCycle
+                words={greetingInDifferentLanguages}
+                interval={3000}
+                className={"text-xl md:text-2xl font-medium"}
+              />{" "}Mantha
             </h1>
             <div className="mt-3 mb-8 max-w-[90vw] relative">
               <h1 className="text-2xl sm:text-4xl font-light text-center sm:text-left text-muted-foreground">
                 A software engineer and designer based in Cambodia. I love to
                 create things that <AnimatedTextCycle
                   words={words}
-                  interval={3000}
+                  interval={3500}
                   className={"text-foreground font-semibold block sm:inline-block"}
                 />
               </h1>
