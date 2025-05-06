@@ -15,8 +15,8 @@ export default function Home() {
     "bring visions to life.",
   ];
   const greetingInDifferentLanguages = [
-    "សួស្តី ខ្ញុំឈ្មោះ",
     "Hello, I'm",
+    "សួស្តី ខ្ញុំឈ្មោះ",
     "你好，我是",
     "こんにちは、私は",
     "สวัสดีครับ ผมชื่อ",
