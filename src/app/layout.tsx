@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Koh_Santepheap } from "next/font/google";
 import "./globals.css";
 import { ThemeToggle } from "@/components/element/theme-toggle";
 
@@ -8,10 +8,17 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+  const geistMono = Geist_Mono({
+    variable: "--font-geist-mono",
+    subsets: ["latin"],
+  });
+  
+  const kohSantepheap = Koh_Santepheap({
+    variable: "--font-koh-santepheap",
+    subsets: ["latin"],
+    weight: ["400", "700"],
+    display: "swap",
+  });
 
 export const metadata: Metadata = {
   title: "Mantha - Portfolio",
@@ -52,7 +59,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} ${kohSantepheap.variable} antialiased`}>
         {children}
         <div className="fixed top-4 right-4">
           <ThemeToggle />
