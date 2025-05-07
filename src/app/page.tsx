@@ -53,7 +53,7 @@ export default function Home() {
               </h1>
             </div>
             <div className="flex flex-col items-center sm:items-start sm:flex-row gap-4">
-              <a href="https://t.me/phalla404" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/phalla-doll-60563a1b9/" target="_blank" rel="noopener noreferrer">
                 <Button className="rounded-full py-0 ps-0 pe-4 gap-0 hover:cursor-pointer relative">
                   <div className="me-2 flex aspect-square h-full p-1.5">
                     <Image
