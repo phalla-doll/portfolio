@@ -34,11 +34,11 @@ export default function Home() {
         <main className="grid grid-cols-1 md:grid-cols-2 items-center sm:items-start gap-8">
           <div className="my-auto">
             <div className="relative max-w-[90vw] overflow-hidden">
-              <h1 className="text-xl md:text-2xl truncate w-auto leading-10 font-medium text-center sm:text-left">
+              <h1 className="text-xl md:text-2xl truncate w-auto leading-12 font-medium text-center sm:text-left">
                 👋 <AnimatedTextCycle
                   words={greetingInDifferentLanguages}
                   interval={3000}
-                  className={"text-xl md:text-2xl font-medium"}
+                  className={"text-xl md:text-2xl leading-12 font-medium"}
                 />{" "}Mantha
               </h1>
             </div>
