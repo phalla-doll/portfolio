@@ -59,6 +59,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta name="google-site-verification" content="IAb9sDlZU39cpGmLLIX_0C0SdZ1bsYOiBG-6T5iRnRY" />
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable} ${kantumruyPro.variable} antialiased`}>
         {children}
         <div className="fixed top-4 right-4">
