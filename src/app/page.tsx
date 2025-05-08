@@ -43,14 +43,14 @@ export default function Home() {
               </h1>
             </div>
             <div className="mb-8 max-w-[90vw] relative">
-              <h1 className="text-2xl sm:text-4xl font-light text-center sm:text-left text-muted-foreground">
+              <h2 className="text-2xl sm:text-4xl font-light text-center sm:text-left text-muted-foreground">
                 A software engineer and designer based in Cambodia. I love to
                 create things that <AnimatedTextCycle
                   words={words}
                   interval={3500}
                   className={"text-foreground font-semibold block sm:inline-block"}
                 />
-              </h1>
+              </h2>
             </div>
             <div className="flex flex-col items-center sm:items-start sm:flex-row gap-4">
               <a href="https://www.linkedin.com/in/phalla-doll-60563a1b9/" target="_blank" rel="noopener noreferrer">
