@@ -34,23 +34,23 @@ export default function Home() {
         <main className="grid grid-cols-1 md:grid-cols-2 items-center sm:items-start gap-8">
           <div className="my-auto">
             <div className="relative max-w-[90vw] overflow-hidden">
-              <h1 className="text-xl md:text-2xl truncate w-auto leading-12 font-medium text-center sm:text-left">
+              <h2 className="text-xl md:text-2xl truncate w-auto leading-12 font-medium text-center sm:text-left">
                 👋 <AnimatedTextCycle
                   words={greetingInDifferentLanguages}
                   interval={3000}
                   className={"text-xl md:text-2xl leading-12 font-medium"}
                 />{" "}Mantha
-              </h1>
+              </h2>
             </div>
             <div className="mb-8 max-w-[90vw] relative">
-              <h2 className="text-2xl sm:text-4xl font-light text-center sm:text-left text-muted-foreground">
+              <h1 className="text-2xl sm:text-4xl font-light text-center sm:text-left text-muted-foreground">
                 A software engineer and designer based in Cambodia. I love to
                 create things that <AnimatedTextCycle
                   words={words}
                   interval={3500}
                   className={"text-foreground font-semibold block sm:inline-block"}
                 />
-              </h2>
+              </h1>
             </div>
             <div className="flex flex-col items-center sm:items-start sm:flex-row gap-4">
               <a href="https://www.linkedin.com/in/phalla-doll-60563a1b9/" target="_blank" rel="noopener noreferrer">
