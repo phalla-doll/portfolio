@@ -77,7 +77,7 @@ export default function Home() {
           <div className="w-full flex justify-center relative">
             <div className="relative w-[320px] h-[320px]">
               <TiltedCard
-                imageSrc="/mantha-profile-pic.png"
+                imageSrc="/mantha-profile-pic.webp"
                 altText="Mantha Profile Image"
                 captionText="Mantha"
                 containerHeight="320px"
